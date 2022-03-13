@@ -1,0 +1,192 @@
+body {
+    background-image: url(boodle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainbox {
+    width:1325px;
+    height: 900px;
+    background-color:rosybrown;
+    opacity: 95%;
+}
+#mainbox #firstrow {
+    height:350px;
+    width:100%;
+}
+#mainbox #secondrow {
+    width:100%;
+    height:350px;
+}
+#mainbox #firstrow .Pochero {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black; 
+}
+#mainbox #firstrow .Pochero img{
+    width:100%;
+}
+#mainbox #firstrow .Pochero p {
+    font-size:12px;
+    color: black
+}
+#mainbox #firstrow .spaget {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left:3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black; 
+}
+#mainbox #firstrow .spaget img{
+    width:100%;
+    height: 32%;
+}
+#mainbox #firstrow .spaget p {
+    font-size:12px;
+    color: black
+}
+#mainbox #firstrow .betamax {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left:3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black; 
+}
+#mainbox #firstrow .betamax img{
+    width:100%;
+    height: 32%;
+}
+#mainbox #firstrow .betamax p {
+    font-size:12px;
+    color: black
+}
+#mainbox #firstrow .frice {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left:3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black;
+}
+#mainbox #firstrow .frice img{
+    width:100%;
+    height: 32%;
+}
+#mainbox #firstrow .frice p {
+    font-size:12px;
+    color: black
+} 
+#mainbox #firstrow .pcanton {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left:3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black; 
+}
+#mainbox #firstrow .pcanton img{
+    width:100%;
+}
+#mainbox #firstrow .pcanton p {
+    font-size:12px;
+    color: black
+}
+#mainbox #secondrow .sisig {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .sisig img{
+    width:100%;
+    height: 32%;
+}
+#mainbox #secondrow .sisig p {
+    font-size:12px;
+    color: black
+}
+#mainbox #secondrow .dd {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .dd img{
+    width:100%;
+    height: 32%;
+}
+#mainbox #secondrow .dd p {
+    font-size:12px;
+    color: black
+}
+#mainbox #secondrow .bang {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .bang img{
+    width:100%;
+    height: 32%;
+}
+#mainbox #secondrow .bang p {
+    font-size:12px;
+    color: black
+}
+#mainbox #secondrow .halo {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .halo img{
+    width:100%;
+    height: 32%;
+}
+#mainbox #secondrow .halo p {
+    font-size:12px;
+    color: black
+}
+#mainbox #secondrow .lechon {
+    width:15%;
+    height:100%;
+    padding:5px;
+    border: groove 2px orange;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .lechon img{
+    width:100%;
+    height: 32%;
+}
+#mainbox #secondrow .lechon p {
+    font-size:12px;
+    color: black
+}
