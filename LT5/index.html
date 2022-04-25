@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <title> Parallex Scrolling Website | Vanilla Javascript</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <header id="header">
+<a href="#" class="logo">Guadalupe, Mikhail Joshua</a>
+        <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+</header>
+<section>
+        <h2 id="text"><span>This is my interactive</span><br>Website</h2>
+        <img src="bird1.png" id="bird1">
+        <img src="bird2.png" id="bird2">
+        <img src="forest.png" id="forest">
+        <a href="#" id="btn">Explore</a>
+        <img src="rocks.png" id="rocks">
+        <img src="water.png" id="water">
+        </section>
+        <div class="sec">
+        <h2>Disclaimer</h2>
+          <p>This is my interactive website for Learning Task 5 in our INTRODUCTION TO WEB AUTHORING class.<br><br>The design was inspired by and produced using one of the interactive design instructions on YouTube; no copyright was intended.<br><br>To avoid copyright issues, I Mikhail joshua guadalupe put a lot of effort into this project and added some extra design and functions <br><br>I give credit to the video content creator for motivating me and assisting me in creating this masterpiece; I do not own some of the photos and have no intention of harming or disrespecting their owners.</p>
+            
+        
+        </div>
+        
+        <script>
+        let text = document.getElementById('text');
+            let bird1 = document.getElementById('bird1');
+            let bird2 = document.getElementById('bird2');
+            let btn = document.getElementById('btn');
+            let rocks = document.getElementById('rocks');
+            let forest = document.getElementById('forest');
+            let water = document.getElementById('water');
+            let header = document.getElementById('header');
+            
+            window.addEventListener('scroll',function(){
+              let value = window.scrollY;
+                
+              text.style.top = 50 + value * -0.5 + '%';
+              bird1.style.top = value * -1.5 + 'px';
+              bird1.style.top = value * 2 + 'px'; 
+              bird2.style.top = value * -1.5 + 'px';
+              bird2.style.top = value * 2 + 'px';
+              btn.style.marginTop = value * 1.5 + 'px';
+              rocks.style.top = value * -0.12 + 'px' ;
+              forest.style.top = value * 0.25 + 'px';
+              header.style.top = value * 0.5 + 'px';
+              
+            })
+        </script>
+    </body>
+</html>
